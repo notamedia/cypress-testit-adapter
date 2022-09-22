@@ -1,33 +1,56 @@
 # TestIT Cypress Adapter
 
-Это образ для синхронизации тестов из Cypress в TestIt на основе JUnit отчёта.
+Это пакет для синхронизации тестов из Cypress в TestIt на основе JUnit отчёта.
 
 На текущий момент синхронизация возможна только в части простановки флага автоматизации в TestIT.
 
-## Используемые переменные окружения
+## Установка и использование
+
+Установка через Yarn:
+```
+yarn add @notamedia/cypress-testit-adapter
+```
+
+Или через NPM:
+```
+npm add @notamedia/cypress-testit-adapter
+```
+
+Пример запуска:
+```
+yarn cypress-testit-adapter-export --testit-project-id <project_id> --testit-token <token> --report /app/junit.xml
+```
+
+## Используемые аргументы
 
 ### Обязательные
 
-- `TESTIT_PROJECT_ID` - UUID проекта, с которым выполняется интеграция
-- `TESTIT_TOKEN` - Токен доступа к API TestIT
+- `--testit-project-id` - UUID проекта, с которым выполняется интеграция
+- `--testit-token` - Токен доступа к API TestIT
+- `--report` - Путь к файлу с JUnit отчётом от Cypress
 
 ### Опциональные
 
-- `REPORT_BASEDIR` - Базовый путь до директории с отчётами, по умолчанию `/app`
-- `TESTIT_BASE_URL` - Базовый URL до TestIT, по умолчанию `https://testit.software`
+- `--report-basedir` - Базовый путь до директории с отчётами, по умолчанию не используется
+- `--testit-base-url` - Базовый URL до TestIT, по умолчанию `https://testit.software`
 
-## Сборка и запуск
+## Отладка
+
+Для вывода дополнительной информации можно задать переменную окружения `DEBUG='*'`, пример запуска:
+
+DEBUG='*' yarn cypress-testit-adapter-export --testit-project-id <project_id> --testit-token <token> --report /app/junit.xml
+```
+
+## Сборка и запуск через Docker
 
 ```
 docker build . -t cypress-testit-adapter:latest
 docker run \
   --rm \
-  -e TESTIT_BASE_URL=https://testit.software \
-  -e TESTIT_PROJECT_ID=<project_id> \
-  -e TESTIT_TOKEN=<token> \
+  -e DEBUG=* \
   -v $(pwd)/reports/junit.xml:/app/junit.xml \
   docker.io/library/cypress-testit-adapter:latest \
-  yarn testit:export:cypress junit.xml
+  yarn cypress-testit-adapter-export --testit-project-id <project_id> --testit-token <token> --report /app/junit.xml
 ```
 
 Где:

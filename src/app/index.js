@@ -1,4 +1,7 @@
+#!/usr/bin/env node
+
 import fs from 'fs';
+import { Command } from 'commander';
 import debug from 'debug';
 import logger from './Logger.js';
 import JunitParser from './Parser/JunitParser.js';
@@ -7,22 +10,27 @@ import Exporter from './TestIt/Exporter.js';
 
 logger.init(debug);
 
-const REPORT_BASEDIR = (process.env.REPORT_BASEDIR || '').trim().replace(/[/]*$/g, '');
-const TESTIT_BASE_URL = process.env.TESTIT_BASE_URL;
-const TESTIT_PROJECT_ID = process.env.TESTIT_PROJECT_ID;
-const TESTIT_TOKEN = process.env.TESTIT_TOKEN;
+const program = new Command();
+program
+  .requiredOption('--testit-project-id <char>', 'Project Id in TestIT')
+  .requiredOption('--testit-token <char>', 'TestIT token')
+  .requiredOption('--report <char>', 'Filepath to JUnit report file')
+  .option('--report-basedir <char>', 'Basedir to report file')
+  .option('--testit-base-url <char>', 'Base url to TestIT');
 
-const args = process.argv.slice(2);
+program.parse();
+const options = program.opts();
 
-if (args.length < 1) {
-  throw new Error('Input string requires filepath to junit file as first argument');
-}
+const REPORT_BASEDIR = (options.reportBasedir || '').trim().replace(/[/]*$/g, '');
+const TESTIT_BASE_URL = options.testitBaseUrl || 'https://testit.software';
+const TESTIT_PROJECT_ID = options.testitProjectId;
+const TESTIT_TOKEN = options.testitToken;
 
 let filepath;
 if (REPORT_BASEDIR) {
-  filepath = `${REPORT_BASEDIR}/${args[0].replace(/^[/]*/g, '')}`;
+  filepath = `${REPORT_BASEDIR}/${options.report.replace(/^[/]*/g, '')}`;
 } else {
-  filepath = args[0];
+  filepath = options.report;
 }
 
 logger.debug('[Test IT] Base URL: %s', TESTIT_BASE_URL);
