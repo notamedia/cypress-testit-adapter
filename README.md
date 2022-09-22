@@ -38,6 +38,7 @@ yarn cypress-testit-adapter-export --testit-project-id <project_id> --testit-tok
 
 Для вывода дополнительной информации можно задать переменную окружения `DEBUG='*'`, пример запуска:
 
+```
 DEBUG='*' yarn cypress-testit-adapter-export --testit-project-id <project_id> --testit-token <token> --report /app/junit.xml
 ```
 
