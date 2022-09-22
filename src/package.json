@@ -3,7 +3,7 @@
   "description": "Export data from tests to TestIT",
   "license": "MIT",
   "homepage": "https://github.com/notamedia/cypress-testit-adapter",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "scripts": {
     "testit:export:cypress": "DEBUG='*' node app/index",
     "lint": "eslint app",
