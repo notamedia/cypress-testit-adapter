@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<testsuites failures="16" errors="0" tests="43">
+  <testsuite name="Root Suite" timestamp="2022-03-15T07:29:47" tests="0" file="cypress/integration/Index.cy.js" time="0.0000" failures="0"/>
+  <testsuite name="Resolution 1600x1280" timestamp="2022-03-15T07:29:47" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Index page" timestamp="2022-03-15T07:29:47" tests="1" time="1.0180" failures="0">
+    <testcase name="Resolution 1600x1280 Index page should have correct css rules" time="0.9950" classname="should have correct css rules"/>
+  </testsuite>
+  <testsuite name="Resolution 1366x1280" timestamp="2022-03-15T07:29:48" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Index page" timestamp="2022-03-15T07:29:48" tests="1" time="0.7550" failures="0">
+    <testcase name="Resolution 1366x1280 Index page should have correct css rules" time="0.7220" classname="should have correct css rules"/>
+  </testsuite>
+  <testsuite name="Resolution 1024x768" timestamp="2022-03-15T07:29:48" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Index page" timestamp="2022-03-15T07:29:48" tests="1" time="0.9170" failures="0">
+    <testcase name="Resolution 1024x768 Index page should have correct css rules" time="0.9050" classname="should have correct css rules"/>
+  </testsuite>
+  <testsuite name="Resolution 768x1024" timestamp="2022-03-15T07:29:49" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Index page" timestamp="2022-03-15T07:29:49" tests="1" time="0.8090" failures="0">
+    <testcase name="Resolution 768x1024 Index page should have correct css rules" time="0.7780" classname="should have correct css rules"/>
+  </testsuite>
+  <testsuite name="Resolution 320x480" timestamp="2022-03-15T07:29:50" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Index page" timestamp="2022-03-15T07:29:50" tests="1" time="0.7880" failures="0">
+    <testcase name="Resolution 320x480 Index page should have correct css rules" time="0.7770" classname="should have correct css rules"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2022-03-15T07:28:03" tests="0" file="cypress/integration/Index.cy.js" time="0.0000" failures="0"/>
+  <testsuite name="Resolution 1600x1280" timestamp="2022-03-15T07:28:03" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Index main" timestamp="2022-03-15T07:28:03" tests="2" time="3.9810" failures="0">
+    <testcase name="Resolution 1600x1280 Index main Should have correct css rules" time="3.8370" classname="Should have correct css rules"/>
+    <testcase name="Resolution 1600x1280 Index main Should have correct weather block" time="0.1070" classname="Should have correct weather block"/>
+  </testsuite>
+  <testsuite name="Resolution 1366x1280" timestamp="2022-03-15T07:28:07" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Index main" timestamp="2022-03-15T07:28:07" tests="2" time="3.7110" failures="0">
+    <testcase name="Resolution 1366x1280 Index main Should have correct css rules" time="3.5030" classname="Should have correct css rules"/>
+    <testcase name="Resolution 1366x1280 Index main Should have correct weather block" time="0.1570" classname="Should have correct weather block"/>
+  </testsuite>
+  <testsuite name="Resolution 1024x768" timestamp="2022-03-15T07:28:11" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Index main" timestamp="2022-03-15T07:28:11" tests="2" time="3.6750" failures="0">
+    <testcase name="Resolution 1024x768 Index main Should have correct css rules" time="3.4330" classname="Should have correct css rules"/>
+    <testcase name="Resolution 1024x768 Index main Should have correct weather block" time="0.1760" classname="Should have correct weather block"/>
+  </testsuite>
+  <testsuite name="Resolution 768x1024" timestamp="2022-03-15T07:28:15" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Index main" timestamp="2022-03-15T07:28:15" tests="2" time="3.6380" failures="0">
+    <testcase name="Resolution 768x1024 Index main Should have correct css rules" time="3.4320" classname="Should have correct css rules"/>
+    <testcase name="Resolution 768x1024 Index main Should have correct weather block" time="0.1860" classname="Should have correct weather block"/>
+  </testsuite>
+  <testsuite name="Resolution 320x480" timestamp="2022-03-15T07:28:18" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Index main" timestamp="2022-03-15T07:28:18" tests="2" time="3.6670" failures="0">
+    <testcase name="Resolution 320x480 Index main Should have correct css rules" time="3.4370" classname="Should have correct css rules"/>
+    <testcase name="Resolution 320x480 Index main Should have correct weather block" time="0.1720" classname="Should have correct weather block"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2022-03-15T07:27:49" tests="0" file="cypress/integration/Index.cy.js" time="0.0000" failures="0"/>
+  <testsuite name="Resolution 1600x1280" timestamp="2022-03-15T07:27:49" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Index main blocks" timestamp="2022-03-15T07:27:49" tests="1" time="2.5220" failures="0">
+    <testcase name="Resolution 1600x1280 Index main blocks should have correct css rules" time="2.5030" classname="should have correct css rules"/>
+  </testsuite>
+  <testsuite name="Resolution 1366x1280" timestamp="2022-03-15T07:27:52" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Index main blocks" timestamp="2022-03-15T07:27:52" tests="1" time="0.9410" failures="0">
+    <testcase name="Resolution 1366x1280 Index main blocks should have correct css rules" time="0.9090" classname="should have correct css rules"/>
+  </testsuite>
+  <testsuite name="Resolution 1024x768" timestamp="2022-03-15T07:27:52" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Index main blocks" timestamp="2022-03-15T07:27:52" tests="1" time="0.8630" failures="0">
+    <testcase name="Resolution 1024x768 Index main blocks should have correct css rules" time="0.8430" classname="should have correct css rules"/>
+  </testsuite>
+  <testsuite name="Resolution 768x1024" timestamp="2022-03-15T07:27:53" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Index main blocks" timestamp="2022-03-15T07:27:53" tests="1" time="0.7750" failures="0">
+    <testcase name="Resolution 768x1024 Index main blocks should have correct css rules" time="0.7590" classname="should have correct css rules"/>
+  </testsuite>
+  <testsuite name="Resolution 320x480" timestamp="2022-03-15T07:27:54" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Index main blocks" timestamp="2022-03-15T07:27:54" tests="1" time="0.7840" failures="0">
+    <testcase name="Resolution 320x480 Index main blocks should have correct css rules" time="0.7650" classname="should have correct css rules"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2022-03-15T07:27:57" tests="0" file="cypress/integration/Index.cy.js" time="0.0000" failures="0"/>
+  <testsuite name="Resolution 1600x1280" timestamp="2022-03-15T07:27:57" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Detail page" timestamp="2022-03-15T07:27:57" tests="1" time="1.1570" failures="0">
+    <testcase name="Resolution 1600x1280 Detail page should have correct css rules" time="1.1330" classname="should have correct css rules"/>
+  </testsuite>
+  <testsuite name="Resolution 1366x1280" timestamp="2022-03-15T07:27:58" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Detail page" timestamp="2022-03-15T07:27:58" tests="1" time="1.0250" failures="0">
+    <testcase name="Resolution 1366x1280 Detail page should have correct css rules" time="1.0070" classname="should have correct css rules"/>
+  </testsuite>
+  <testsuite name="Resolution 1024x768" timestamp="2022-03-15T07:27:59" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Detail page" timestamp="2022-03-15T07:27:59" tests="1" time="0.9740" failures="0">
+    <testcase name="Resolution 1024x768 Detail page should have correct css rules" time="0.9270" classname="should have correct css rules"/>
+  </testsuite>
+  <testsuite name="Resolution 768x1024" timestamp="2022-03-15T07:28:00" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Detail page" timestamp="2022-03-15T07:28:00" tests="1" time="0.9190" failures="0">
+    <testcase name="Resolution 768x1024 Detail page should have correct css rules" time="0.8780" classname="should have correct css rules"/>
+  </testsuite>
+  <testsuite name="Resolution 320x480" timestamp="2022-03-15T07:28:01" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Detail page" timestamp="2022-03-15T07:28:01" tests="1" time="0.9200" failures="0">
+    <testcase name="Resolution 320x480 Detail page should have correct css rules" time="0.8930" classname="should have correct css rules"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2022-03-15T07:25:48" tests="0" file="cypress/integration/Index.cy.js" time="0.0000" failures="0"/>
+  <testsuite name="Resolution 1600x1280" timestamp="2022-03-15T07:25:48" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Detail page" timestamp="2022-03-15T07:25:48" tests="3" time="70.8760" failures="3">
+    <testcase name="Resolution 1600x1280 Detail page Event detail" time="0.0000" classname="Event detail">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `.news-article-sharing`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `.news-article-sharing`, but never found it.
+    at Context.eval (https://test.ru/__cypress/tests?p=cypress/support/index.js:664:12)]]></failure>
+    </testcase>
+    <testcase name="Resolution 1600x1280 Detail page Event detail ebs" time="0.0000" classname="Event detail ebs">
+      <failure message="Timed out after waiting `60000ms` for your remote page to load." type="CypressError">Timed out after waiting `60000ms` for your remote page to load.</failure>
+    </testcase>
+    <testcase name="Resolution 1600x1280 Detail page &quot;after each&quot; hook for &quot;Event detail ebs&quot;" time="0.0000" classname="&quot;after each&quot; hook for &quot;Event detail ebs&quot;">
+      <failure message="Cypress command timeout of `4000ms` exceeded." type="CypressError">CypressError: Cypress command timeout of `4000ms` exceeded.</failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2022-03-15T07:25:04" tests="0" file="cypress/integration/Index.cy.js" time="0.0000" failures="0"/>
+  <testsuite name="Afisha" timestamp="2022-03-15T07:25:04" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Resolution 1600x1280" timestamp="2022-03-15T07:25:04" tests="1" time="9.0460" failures="0">
+    <testcase name="Afisha Resolution 1600x1280 #3 should display Index page correctly" time="0.0000" classname="#3 should display Index page correctly"/>
+  </testsuite>
+  <testsuite name="Resolution 1366x1280" timestamp="2022-03-15T07:25:13" tests="1" time="8.1430" failures="0">
+    <testcase name="Afisha Resolution 1366x1280 #3 should display Index page correctly" time="0.0000" classname="#3 should display Index page correctly"/>
+  </testsuite>
+  <testsuite name="Resolution 1024x768" timestamp="2022-03-15T07:25:21" tests="1" time="8.0770" failures="1">
+    <testcase name="Afisha Resolution 1024x768 #3 should display Index page correctly" time="0.0000" classname="#3 should display Index page correctly">
+      <failure message="Timed out retrying after 4000ms: expected '&lt;div#group-block-8060.group-block.group-block__2>' to have CSS property 'margin-top' with the value '10px', but the value was '56px'" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<div#group-block-8060.group-block.group-block__2>' to have CSS property 'margin-top' with the value '10px', but the value was '56px'
+    at Context.eval (https://test.ru/__cypress/tests?p=cypress/support/index.js:664:12)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Resolution 768x1024" timestamp="2022-03-15T07:25:30" tests="1" time="8.2920" failures="1">
+    <testcase name="Afisha Resolution 768x1024 #3 should display Index page correctly" time="0.0000" classname="#3 should display Index page correctly">
+      <failure message="Timed out retrying after 4000ms: expected '&lt;div#group-block-8060.group-block.group-block__2>' to have CSS property 'margin-top' with the value '0px', but the value was '56px'" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<div#group-block-8060.group-block.group-block__2>' to have CSS property 'margin-top' with the value '0px', but the value was '56px'
+    at Context.eval (https://test.ru/__cypress/tests?p=cypress/support/index.js:664:12)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Resolution 320x480" timestamp="2022-03-15T07:25:38" tests="1" time="7.9990" failures="1">
+    <testcase name="Afisha Resolution 320x480 #3 should display Index page correctly" time="0.0000" classname="#3 should display Index page correctly">
+      <failure message="Timed out retrying after 4000ms: expected '&lt;div#group-block-8060.group-block.group-block__2>' to have CSS property 'margin-top' with the value '0px', but the value was '48px'" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<div#group-block-8060.group-block.group-block__2>' to have CSS property 'margin-top' with the value '0px', but the value was '48px'
+    at Context.eval (https://test.ru/__cypress/tests?p=cypress/support/index.js:664:12)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2022-03-15T07:27:00" tests="0" file="cypress/integration/Index.cy.js" time="0.0000" failures="0"/>
+  <testsuite name="Afisha" timestamp="2022-03-15T07:27:00" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Resolution 1600x1280" timestamp="2022-03-15T07:27:00" tests="1" time="8.5130" failures="1">
+    <testcase name="Afisha Resolution 1600x1280 #3 should display Index page correctly" time="0.0000" classname="#3 should display Index page correctly">
+      <failure message="Timed out retrying after 4000ms: expected '&lt;div#group-block-8060.group-block.group-block__2>' to have CSS property 'margin-top' with the value '10px', but the value was '88px'" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<div#group-block-8060.group-block.group-block__2>' to have CSS property 'margin-top' with the value '10px', but the value was '88px'
+    at Context.eval (https://test.ru/__cypress/tests?p=cypress/support/index.js:664:12)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Resolution 1366x1280" timestamp="2022-03-15T07:27:09" tests="1" time="7.9850" failures="1">
+    <testcase name="Afisha Resolution 1366x1280 #3 should display Index page correctly" time="0.0000" classname="#3 should display Index page correctly">
+      <failure message="Timed out retrying after 4000ms: expected '&lt;div#group-block-8060.group-block.group-block__2>' to have CSS property 'margin-top' with the value '10px', but the value was '88px'" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<div#group-block-8060.group-block.group-block__2>' to have CSS property 'margin-top' with the value '10px', but the value was '88px'
+    at Context.eval (https://test.ru/__cypress/tests?p=cypress/support/index.js:664:12)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Resolution 1024x768" timestamp="2022-03-15T07:27:17" tests="1" time="8.1210" failures="1">
+    <testcase name="Afisha Resolution 1024x768 #3 should display Index page correctly" time="0.0000" classname="#3 should display Index page correctly">
+      <failure message="Timed out retrying after 4000ms: expected '&lt;div#group-block-8060.group-block.group-block__2>' to have CSS property 'margin-top' with the value '10px', but the value was '56px'" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<div#group-block-8060.group-block.group-block__2>' to have CSS property 'margin-top' with the value '10px', but the value was '56px'
+    at Context.eval (https://test.ru/__cypress/tests?p=cypress/support/index.js:664:12)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Resolution 768x1024" timestamp="2022-03-15T07:27:25" tests="1" time="8.0630" failures="1">
+    <testcase name="Afisha Resolution 768x1024 #3 should display Index page correctly" time="0.0000" classname="#3 should display Index page correctly">
+      <failure message="Timed out retrying after 4000ms: expected '&lt;div#group-block-8060.group-block.group-block__2>' to have CSS property 'margin-top' with the value '0px', but the value was '56px'" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<div#group-block-8060.group-block.group-block__2>' to have CSS property 'margin-top' with the value '0px', but the value was '56px'
+    at Context.eval (https://test.ru/__cypress/tests?p=cypress/support/index.js:664:12)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Resolution 320x480" timestamp="2022-03-15T07:27:33" tests="1" time="8.0370" failures="1">
+    <testcase name="Afisha Resolution 320x480 #3 should display Index page correctly" time="0.0000" classname="#3 should display Index page correctly">
+      <failure message="Timed out retrying after 4000ms: expected '&lt;div#group-block-8060.group-block.group-block__2>' to have CSS property 'margin-top' with the value '0px', but the value was '48px'" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<div#group-block-8060.group-block.group-block__2>' to have CSS property 'margin-top' with the value '0px', but the value was '48px'
+    at Context.eval (https://test.ru/__cypress/tests?p=cypress/support/index.js:664:12)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Afisha form" timestamp="2022-03-15T07:27:41" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="with date params in url" timestamp="2022-03-15T07:27:41" tests="3" time="6.1360" failures="0">
+    <testcase name="Afisha form with date params in url filter apply button should be disabled" time="5.5330" classname="filter apply button should be disabled"/>
+    <testcase name="Afisha form with date params in url should necessary elements" time="0.1050" classname="should necessary elements"/>
+    <testcase name="Afisha form with date params in url dropdowns should have scroll" time="0.4560" classname="dropdowns should have scroll"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2022-03-15T07:28:24" tests="0" file="cypress/integration/Index.cy.js" time="0.0000" failures="0"/>
+  <testsuite name="Resolution 1600x1280" timestamp="2022-03-15T07:28:24" tests="0" time="0.0000" failures="0"/>
+  <testsuite name="Detail page" timestamp="2022-03-15T07:28:24" tests="2" time="72.5270" failures="3">
+    <testcase name="Resolution 1600x1280 Detail page Should have correct css rules" time="0.0000" classname="Should have correct css rules">
+      <failure message="`cy.visit()` failed trying to load" type="CypressError">CypressError: `cy.visit()` failed trying to load</failure>
+    </testcase>
+    <testcase name="Resolution 1600x1280 Detail page Should have correct molding block" time="0.0000" classname="Should have correct molding block">
+      <failure message="Timed out after waiting `60000ms` for your remote page to load." type="CypressError">CypressError: Timed out after waiting `60000ms` for your remote page to load.</failure>
+    </testcase>
+    <testcase name="Resolution 1600x1280 Detail page &quot;after each&quot; hook for &quot;Should have correct molding block&quot;" time="0.0000" classname="&quot;after each&quot; hook for &quot;Should have correct molding block&quot;">
+      <failure message="Cypress command timeout of `4000ms` exceeded." type="CypressError">CypressError: Cypress command timeout of `4000ms` exceeded.</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

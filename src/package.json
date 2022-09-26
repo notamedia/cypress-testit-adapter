@@ -1,0 +1,31 @@
+{
+  "name": "@notamedia/cypress-testit-adapter",
+  "description": "Export data from tests to TestIT",
+  "license": "MIT",
+  "homepage": "https://github.com/notamedia/cypress-testit-adapter",
+  "version": "0.1.4",
+  "scripts": {
+    "testit:export:cypress": "DEBUG='*' node app/index",
+    "lint": "eslint app",
+    "test": "node --experimental-vm-modules $(yarn bin jest)"
+  },
+  "bin": {
+    "cypress-testit-adapter-export": "app/index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "debug": "^4.3.4",
+    "fast-xml-parser": "^4.0.7",
+    "node-fetch": "^3.2.3"
+  },
+  "devDependencies": {
+    "@jest/globals": "^27.5.1",
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.1.3",
+    "jest": "^27.5.1"
+  },
+  "packageManager": "yarn@3.2.3"
+}

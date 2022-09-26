@@ -1,0 +1,22 @@
+{
+  "extends": "airbnb/base",
+  "plugins": ["jest"],
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module"
+  },
+  "env": {
+    "jest/globals": true
+  },
+  "rules": {
+    "max-len": "off",
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "no-continue": "off",
+    "no-await-in-loop": "off",
+    "class-methods-use-this": "off",
+    "no-bitwise": "off",
+    "no-console": "off",
+    "prefer-destructuring": "off",
+    "import/extensions": ["error", "always"]
+  }
+}

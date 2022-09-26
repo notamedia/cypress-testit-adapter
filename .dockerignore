@@ -1,0 +1,7 @@
+.idea
+.DS_Store
+.vscode
+
+src/.yarn/install-state.gz
+src/.yarn/cache
+src/.yarn/unplugged
